@@ -1,15 +1,7 @@
 /*
 *****************************************************************************
-                        Assignment 1 - Milestone 3
+File: clinic.c
 Full Name  : Yuchi Zheng
-Student ID#: 025 848 151
-Email      : yzheng103@myseneca.ca
-Section    : NAA
-
-Authenticity Declaration:
-I declare this submission is the result of my own work and has not been
-shared with any other student or 3rd party content provider. This submitted
-piece of work is entirely of my own creation.
 *****************************************************************************
 */
 
@@ -404,7 +396,7 @@ void removePatient(struct Patient patient[], int max)
 
         if (selection == 'y')
         {
-            patient[existIndex] = safeEmpty;       // or use memset£¨0£¬sizeof(type)£©
+            patient[existIndex] = safeEmpty;       // or use memsetÂ£Â¨0Â£Â¬sizeof(type)Â£Â©
             printf("Patient record has been removed!\n\n");
         }
         else
